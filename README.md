@@ -1,1 +1,4 @@
 # raptor-rag-kg-enhanced
+
+Long-Context models such as Google Gemini Pro 1.5 or Large World Model are changing the way we think about RAG (retrieval-augmented generation). Some are starting to explore the potential application of “Long-Context RAG”. One example is RAPTOR (Recursive Abstractive Processing for Tree-Organized Retrieval), by clustering and summarizing documents, this method lets language models grasp both general concepts and granular details in the individual documents. Inspired by LangChain, we tested out constructing a tree-based long context RAG. Watch the video to find out whether this approach allows us to say goodbye to the lost-in-the-middle effect commonly seen in large language models. AND, most importantly, how knowledge graphs can come to the rescue to enhance the answer quality. 
+YouTube video: https://youtu.be/g1TzbKDNr7M
