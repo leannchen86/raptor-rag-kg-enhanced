@@ -1,4 +1,39 @@
-# raptor-rag-kg-enhanced
+# RAPTOR RAG With Knowledge-Graph Enhancement
 
-Long-Context models such as Google Gemini Pro 1.5 or Large World Model are changing the way we think about RAG (retrieval-augmented generation). Some are starting to explore the potential application of “Long-Context RAG”. One example is RAPTOR (Recursive Abstractive Processing for Tree-Organized Retrieval), by clustering and summarizing documents, this method lets language models grasp both general concepts and granular details in the individual documents. Inspired by LangChain, we tested out constructing a tree-based long context RAG. Watch the video to find out whether this approach allows us to say goodbye to the lost-in-the-middle effect commonly seen in large language models. AND, most importantly, how knowledge graphs can come to the rescue to enhance the answer quality. 
-YouTube video: https://youtu.be/g1TzbKDNr7M
+Notebook and video companion for exploring tree-based long-context RAG and knowledge-graph enhancement.
+
+Watch the walkthrough: [RAPTOR RAG + Knowledge Graphs](https://youtu.be/g1TzbKDNr7M)
+
+## Project Question
+
+Long-context models changed how developers think about retrieval. Instead of retrieving only small chunks, methods such as RAPTOR cluster and summarize documents into a tree so the model can access both high-level summaries and granular details.
+
+This project asks:
+
+> Can a RAPTOR-style retrieval tree reduce lost-in-the-middle failures, and where can a knowledge graph improve answer quality?
+
+## What This Demonstrates
+
+- How recursive abstractive summarization can create a tree-organized retrieval structure.
+- Why long-context RAG still needs careful retrieval and evaluation.
+- How knowledge graphs can add relationship-aware context on top of document chunks.
+- How to turn a research-inspired retrieval pattern into a runnable notebook explanation.
+
+## Files
+
+- `raptor-rag-kg-enhanced.ipynb` - main exploratory notebook.
+- `README.md` - project overview and video link.
+
+## How To Use
+
+Open the notebook and run it top to bottom:
+
+```bash
+jupyter notebook raptor-rag-kg-enhanced.ipynb
+```
+
+The notebook loads knowledge about Hayao Miyazaki from Wikipedia and uses it as the working retrieval corpus.
+
+## Portfolio Note
+
+This repo fits with my broader AI education work on RAG, hybrid retrieval, knowledge graphs, and model-evaluation pitfalls.
